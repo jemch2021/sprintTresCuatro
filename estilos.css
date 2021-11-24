@@ -4,14 +4,17 @@ padding: 0%;
 box-sizing: border-box;
 
 }
-body{background: rgb(242, 135, 115);}
+body{ background-image: linear-gradient(white,rgb(18, 207, 65));
+}
 .galeria{
     font-family: 'open sans';
 }
+
 .galeria h1{
     text-align: center;
     margin: 20px 0 15px 0;
     font-weight: 800;
+    color: rgb(11, 4, 14);
 }
 .galeria h2{
     text-align: center;
@@ -45,7 +48,7 @@ body{background: rgb(242, 135, 115);}
     position:relative;
     height: 280px;
     margin-bottom: 25px;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75) ;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .95) ;
 }
 .imagen img{
     width: 100%;
